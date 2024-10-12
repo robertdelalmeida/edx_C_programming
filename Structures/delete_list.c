@@ -36,7 +36,7 @@ int main(void) {
 }
 
 void printPoints(struct point *start) {
-    //! showMemory(start = 65520, cursors=[ptr])
+    //! showMemory(start = 65520, cursors=[pt])
     struct point * ptr;
     ptr = start;
     while (ptr!=NULL) {
